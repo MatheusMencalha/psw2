@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PSW</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+         /**
+         *Formatação do formulário dentro do style
+         *e em body está o formulário em si com todos os campos que devem ser preenchidos
+         */
+            form{
+                margin-top: 50px;
+                padding: 10px;
+                background-color: #9ACD32;
+                font-family: times new roman; 
+                margin-bottom: 50px;
+                width: 40%;
+                
+                
+                
+            }
+            input[type='text']{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+                padding: 5px 10px;
+                box-sizing: border-box;
+                border: 1px solid black;
+                border-radius: 2px;
+            }
+            
+            input[type='submit']{
+                margin-top: 10px;
+                margin-left: 200px;
+                border: 1px solid black;
+                border-radius:4px;
+                padding: 3px;
+                font-family: monospace;
+                
+            }
+            input[type='reset']{
+                margin-top: 10px;
+                padding: 3px;
+                border: 1px solid black;
+                border-radius: 4px;
+                font-family: monospace;
+                
+            }
+            
+            
+        
+        </style>
+
+    </head>
+    <body>
+        
+        <div>
+            <form action="Servidor" method="POST">
+                <fieldset>
+                              
+                Aluno:<br>
+                
+                  <input type="text" name="aluno"><br>
+                  Frequencia:<br>
+                
+                  <input type="text" name="frequencia" ><br>
+                
+                  P1:<br>
+                
+                  <input type="text" name="p1" ><br>
+                
+                Trabalho:<br>
+                
+                  <input type="text" name="trabalho" ><br>
+                  Projeto:<br>
+                
+                  <input type="text" name="projeto" ><br>
+                
+                
+                
+                PF:<br>
+                
+                  <input type="text" name="pf"  ><br>
+                
+                
+                <input type="submit" id="botao" value="Enviar">
+                
+                <input type="reset" value="Limpar">
+                    
+                 </fieldset>   
+                
+            
+            
+            </form>
+        
+        
+        </div>
+
+    </body>
+</html>
